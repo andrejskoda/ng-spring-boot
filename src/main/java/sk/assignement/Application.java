@@ -1,4 +1,4 @@
-package be.g00glen00b;
+package sk.assignement;
 
 
 import org.springframework.boot.SpringApplication;
