@@ -28,8 +28,9 @@
         $scope.newEvent.tags=null;
       };
     
-    $scope.updateEvent = function(event) {
-        event.$update();
+    $scope.updateItem = function(event) {
+    	
+        
       };
       
       $scope.setEditable = function(event, value) {
@@ -39,6 +40,12 @@
         	  event.tagObjects = event.tags.map(function(tag){
         		 return {text: tag}; 
         	  });
+          }else{
+        	  event.tags = event.tagObjects.map(function(item){
+          		return item['text'];
+          		});
+          	
+              event.$update(); 
           }
         };
         
