@@ -1,4 +1,4 @@
-# Assignement solution
+# Assignment solution
 Solution was inspired by https://github.com/g00glen00b/ng-spring-boot project
 
 ## Installation
