@@ -1,5 +1,5 @@
 # Assignement solution
-# Solution was inspired by https://github.com/g00glen00b/ng-spring-boot project
+Solution was inspired by https://github.com/g00glen00b/ng-spring-boot project
 
 ## Installation
 Installation is quite easy, first you will have to install some front-end dependencies using Bower:
